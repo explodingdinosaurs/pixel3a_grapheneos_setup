@@ -1,4 +1,4 @@
-# My Pixel3a GrapheneIOS Setup
+# My Pixel3a GrapheneOS Setup
 The idea of this project is to make an old google pixel 3a usable again in line with some of the philosophies of [permacomputing](https://permacomputing.net/). The phone required a new phone and battery, which I learnt how to install using youtube tutorials, and some trial and error. This repo details the software side of this project. 
 
 ## Operating System
