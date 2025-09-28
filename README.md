@@ -165,7 +165,7 @@ I haven't listened any of the stock apps besides the GrapheneOS AppStore and Van
 | Iceraven                                                   | Web broswer - Firefox with trackers removed                                        |
 | Ironfox                                                    | Web broswer - Chrome with trackers removed.                                        |
 | Joplin                                                     | Note taking and organising app.                                                    |
-| Obtainium                                                  | Managers app obtained from github.                                                 |
+| Obtainium                                                  | Manages app obtained from github.                                                  |
 | Open Camera                                                | A full featured camera app.                                                        |
 | Organic Maps                                               | Google maps replacement.                                                           |
 | Proton Authenticator                                       | For two-factor authentication.                                                     |
