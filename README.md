@@ -147,7 +147,7 @@ Installed using obtainium (github repo [here](https://github.com/ProtonMail/andr
 Ensure Play Store and Play Services are installed as the Bank Australia app uses some of the security features from Play Services. Then install the Bank Australia app with Aurora.
 
 ## App Summary
-I haven't listened any of the stock apps besides the GrapheneOS AppStore and Vanadium. * indicates additional actions are required beyond what is expected for that installation source, see section [App Installation](#App Installation) for more information.
+I haven't listened any of the stock apps besides the GrapheneOS AppStore and Vanadium. * indicates additional actions are required beyond what is expected for that installation source, see section [App Installation](#app-installation) for more information.
 
 | App                                                        | Description                                                                                      | Installation Source |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------- |
