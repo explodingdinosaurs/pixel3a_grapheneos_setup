@@ -71,7 +71,13 @@ Used to install builds directly from github/gitlab repos. Installed using fdroid
 - AntennaPod
 - Aurora
 - Bitwarden (after adding bitwarden repo)
+- Fossify Calculator
 - Fossify Clock
+- Fossify Contacts
+- Fossify File Manager
+- Fossify Gallery
+- Fossify Messages
+- Fossify Phone
 - FUTO Keyboard
 - Joplin
 - Obtainium
@@ -87,10 +93,12 @@ Used to install builds directly from github/gitlab repos. Installed using fdroid
 - Proton Drive
 - Proton Mail
 - Signal
+- SimpMusic
 
 ### System
-#### Fossify Clock
-The default android clock app is not pretty and isn't customisable. Fossify clock is very similar to the android clock, but it customisable.  
+#### Fossify Calculator, Clock, Contacts, File Manager, Gallery, Messages, Phone 
+The default AOSP android app are not pretty and isn't customisable. The Fossify suite of apps is very similar to the stock android apps, but are customisable. You can't removed most (if not all) of the stock equivalent apps, but you can disable them. This clears them from the app list which is nice. All installed with f-droid.
+
 #### FUTO Keyboard
 The stock keyboard isn't great. FUTO was the first one I tried after trawling GrapheneOS forum posts. It's pretty neat. Need to add the [repo](https://app.futo.org/fdroid/repo/) to f-droid.
 
@@ -115,11 +123,12 @@ For podcasts. Installed with f-droid.
 Media gallery. The stock GrapheneOS one isn't great. Installed using Accrescent.
 #### OpenCamera
 The stock GrapheneOS isn't great. OpenCamera is pretty good and packed with a huge amount of features. Installed with f-droid.
+#### SimpMusic
+Awesome name. Basically spotify but uses youtube as the music source. Installed with obtainium from [here](https://github.com/maxrave-dev/SimpMusic).
 #### Spotify
 Currently looking for and trialling alternatives to spotify. Installed with aurora.
-
 #### Tubular
-It's a fork of NewPipe. NewPipe is a front end to youtube that doesn't track you or send information back to youtube, and it doesn't insert ads. Tubular is essentially NewPipe with SponsorBlock (a firefox extension) installed. Installed with f-droid
+It's a fork of NewPipe. NewPipe is a front end to youtube that doesn't track you or send information back to youtube, and it doesn't insert ads. Tubular is essentially NewPipe with SponsorBlock (a firefox extension) installed. Also includes interface for soundcloud. Installed with f-droid.
 #### VLC
 We all love it. Installed with f-droid.
 
@@ -142,6 +151,9 @@ Installed using obtainium from apk from [here](https://proton.me/drive/download)
 #### Proton Mail
 Installed using obtainium (github repo [here](https://github.com/ProtonMail/android-mail/releases)). 
 
+#### Proton VPN
+Not 100% sure about this one yet. Trialling it for now. Installed using f-droid.
+
 ### Services
 #### Bank Australia
 Ensure Play Store and Play Services are installed as the Bank Australia app uses some of the security features from Play Services. Then install the Bank Australia app with Aurora.
@@ -149,34 +161,41 @@ Ensure Play Store and Play Services are installed as the Bank Australia app uses
 ## App Summary
 Below is a table containing a brief description and installation source of each app I've installed. I haven't listened any of the stock apps besides the GrapheneOS AppStore and Vanadium. * indicates additional actions are required beyond what is expected for that installation source, see section [App Installation](#app-installation) for more information.
 
-| App                                                      | Description                                                                                      | Installation Source | FOSS? |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------- | ----- |
-| Accrescent                                               | A store for apps approved by the GrapheneOS developers.                                          | GrapheneOS AppStore | ✅<br> |
-| AntennaPod                                               | Podcast App. Very similar to Pocketcast.                                                         | F-droid             | ✅<br> |
-| Aurora                                                   | Access Google Play Store without logging in.                                                     | F-droid             | ✅<br> |
-| Aves Gallery Libre                                       | Media gallery.                                                                                   | Accrescent          | ✅<br> |
-| Bank Australia                                           | The official Bank Australia app.                                                                 | Aurora              | ❌     |
-| Bitwarden                                                | Password manager.                                                                                | F-droid*            | ✅<br> |
-| F-droid                                                  | An app store for open source apps.                                                               | apk                 | ✅<br> |
-| Fossify Clock                                            | A slightly nicer, configurable clock. Will be very familiar if you've used google android clock. | F-droid             | ✅<br> |
-| FUTO Keyboard                                            | A keyboard with swipey words.                                                                    | F-droid             | ✅<br> |
-| GrapheneOS AppStore                                      | The store app store that comes with GrapheneOS.                                                  | Stock*              | ✅<br> |
-| Google Play Store (later deleted) + Google Play Services | Needed to install some apps in Aurora.                                                           | GrapheneOS AppStore | ❌     |
-| Iceraven                                                 | Web broswer - Firefox with trackers removed.                                                     | Obtainium           | ✅<br> |
-| Ironfox                                                  | Web broswer - Chrome with trackers removed.                                                      | Accrescent          | ✅<br> |
-| Joplin                                                   | Note taking and organising app.                                                                  | F-droid             | ✅<br> |
-| Obtainium                                                | Manages app obtained from github.                                                                | F-droid             | ✅<br> |
-| Open Camera                                              | A full featured camera app.                                                                      | F-droid             | ✅<br> |
-| Organic Maps                                             | Google maps replacement.                                                                         | Accrescent          | ✅<br> |
-| Proton Authenticator                                     | For two-factor authentication.                                                                   | Aurora              | ✅<br> |
-| Proton Calendar                                          | Google calendar replacement.                                                                     | Obtainium           | ✅     |
-| Proton Drive                                             | Google drive replacement.                                                                        | Obtainium           | ✅     |
-| Proton Mail                                              | Gmail replacment.                                                                                | Obtainium           | ✅<br> |
-| Signal                                                   | Secure messaging app.                                                                            | Obtainium           | ✅<br> |
-| Spotify                                                  | Music streaming.                                                                                 | Aurora              | ❌     |
-| Tubular                                                  | Watch/listen/download/play in background youtube videos and soundcloud music.                    | F-droid             | ✅<br> |
-| Vanadium                                                 | Stock GrapheneOS web browser.                                                                    | Stock               | ✅<br> |
-| VLC                                                      | A media player that will play almost any media format.                                           | F-droid             | ✅<br> |
+| App                                                      | Description                                                                   | Installation Source | FOSS? |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------- | ----- |
+| Accrescent                                               | A store for apps approved by the GrapheneOS developers.                       | GrapheneOS AppStore | ✅<br> |
+| AntennaPod                                               | Podcast App. Very similar to Pocketcast.                                      | F-droid             | ✅<br> |
+| Aurora                                                   | Access Google Play Store without logging in.                                  | F-droid             | ✅<br> |
+| Aves Gallery Libre                                       | Media gallery.                                                                | Accrescent          | ✅<br> |
+| Bank Australia                                           | The official Bank Australia app.                                              | Aurora              | ❌     |
+| Bitwarden                                                | Password manager.                                                             | F-droid*            | ✅<br> |
+| F-droid                                                  | An app store for open source apps.                                            | apk                 | ✅<br> |
+| Fossify Calculator                                       | A nicer, more configurable calculator.                                        | F-droid             | ✅<br> |
+| Fossify Clock                                            | A nicer, more configurable clock.                                             | F-droid             | ✅<br> |
+| Fossify Contacts                                         | A nicer, more configurable contacts managment app.                            | F-droid             | ✅<br> |
+| Fossify File Manager                                     | A nicer, more configurable file manager.                                      | F-droid             | ✅<br> |
+| Fossify Gallery                                          | A nicer, more configurable image gallery.                                     | F-droid             | ✅<br> |
+| Fossify Messages                                         | A nicer, more configurable sms app.                                           | F-droid             | ✅<br> |
+| Fossify Phone                                            | A nicer, more configurable phone.                                             | F-droid             | ✅<br> |
+| FUTO Keyboard                                            | A keyboard with swipey words.                                                 | F-droid             | ✅<br> |
+| GrapheneOS AppStore                                      | The store app store that comes with GrapheneOS.                               | Stock*              | ✅<br> |
+| Google Play Store (later deleted) + Google Play Services | Needed to install some apps in Aurora.                                        | GrapheneOS AppStore | ❌     |
+| Iceraven                                                 | Web broswer - Firefox with trackers removed.                                  | Obtainium           | ✅<br> |
+| Ironfox                                                  | Web broswer - Chrome with trackers removed.                                   | Accrescent          | ✅<br> |
+| Joplin                                                   | Note taking and organising app.                                               | F-droid             | ✅<br> |
+| Obtainium                                                | Manages app obtained from github.                                             | F-droid             | ✅<br> |
+| Open Camera                                              | A full featured camera app.                                                   | F-droid             | ✅<br> |
+| Organic Maps                                             | Google maps replacement.                                                      | Accrescent          | ✅<br> |
+| Proton Authenticator                                     | For two-factor authentication.                                                | Aurora              | ✅<br> |
+| Proton Calendar                                          | Google calendar replacement.                                                  | Obtainium           | ✅     |
+| Proton Drive                                             | Google drive replacement.                                                     | Obtainium           | ✅     |
+| Proton Mail                                              | Gmail replacment.                                                             | Obtainium           | ✅<br> |
+| Signal                                                   | Secure messaging app.                                                         | Obtainium           | ✅<br> |
+| SimpMusic                                                | Spotify replacement with youtube backend.                                     | Obtainium           | ✅<br> |
+| Spotify                                                  | Music streaming.                                                              | Aurora              | ❌     |
+| Tubular                                                  | Watch/listen/download/play in background youtube videos and soundcloud music. | F-droid             | ✅<br> |
+| Vanadium                                                 | Stock GrapheneOS web browser.                                                 | Stock               | ✅<br> |
+| VLC                                                      | A media player that will play almost any media format.                        | F-droid             | ✅<br> |
 ## Todo
 - [ ] Find a replacement for spotify
 - [ ] Investigate microG as a Google Play Service replacement
